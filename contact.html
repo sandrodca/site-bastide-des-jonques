@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — La Bastide des Jonquets</title>
+  <meta name="description" content="Contactez La Bastide des Jonquets pour réserver votre séjour ou obtenir des informations. Téléphone, email et formulaire de contact.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header" id="header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">La Bastide des Jonquets<span>Gîte de Charme · Luberon</span></a>
+    <nav class="nav-desktop" aria-label="Navigation principale">
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="le-gite.html">Le Gîte</a></li>
+        <li><a href="la-piscine.html">La Piscine</a></li>
+        <li><a href="exterieurs-terrasses.html">Extérieurs</a></li>
+        <li><a href="tourisme-luberon.html">Tourisme</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+      <a href="en/contact-us.html" class="lang-switch">EN</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Ouvrir le menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<div class="nav-overlay" id="navOverlay"></div>
+<nav class="nav-mobile" id="navMobile" aria-label="Navigation mobile">
+  <ul>
+    <li><a href="index.html">Accueil</a></li>
+    <li><a href="le-gite.html">Le Gîte</a></li>
+    <li><a href="la-piscine.html">La Piscine</a></li>
+    <li><a href="exterieurs-terrasses.html">Extérieurs & Terrasses</a></li>
+    <li><a href="tourisme-luberon.html">Tourisme en Luberon</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <a href="en/contact-us.html" class="lang-switch">English version</a>
+</nav>
+
+<!-- HERO SMALL -->
+<section class="hero" style="min-height:45vh;">
+  <div class="hero-bg">
+    <img src="https://labastidedesjonquets.com/wp-content/uploads/2020/05/img_0134.jpeg?w=1920" alt="Contact">
+  </div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <span class="hero-label">Réserver votre séjour</span>
+    <h1 class="hero-title" style="font-size:clamp(2rem,4.5vw,3.5rem);">Contactez-nous</h1>
+    <p class="hero-subtitle">Nous serons ravis de vous accueillir à la Bastide des Jonquets</p>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section" style="background:var(--white);">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <div class="contact-block">
+          <h4>La Bastide des Jonquets</h4>
+          <p>Gîte de charme au cœur du Luberon<br>Parc Naturel Régional du Luberon<br>Provence · France</p>
+        </div>
+        <div class="contact-block">
+          <h4>Téléphone</h4>
+          <p><a href="tel:+33603781781">+33 6 03 78 17 81</a></p>
+        </div>
+        <div class="contact-block">
+          <h4>Email</h4>
+          <p><a href="mailto:labastidedesjonquets@gmail.com">labastidedesjonquets@gmail.com</a></p>
+        </div>
+        <div class="contact-block">
+          <h4>Tarifs indicatifs</h4>
+          <p>À partir de <strong>100 euros/nuit</strong><br>À partir de <strong>490 euros/semaine</strong> hors saison<br>Forfait ménage : 50 euros</p>
+        </div>
+      </div>
+
+      <div class="reveal reveal-delay-1">
+        <span class="section-label">Formulaire</span>
+        <h2 style="margin-bottom:1.5rem;">Envoyez-nous un message</h2>
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <label for="name">Nom</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Adresse E-mail</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Numéro de téléphone</label>
+            <input type="tel" id="phone" name="phone">
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required placeholder="Votre message, dates de séjour souhaitées..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%;">Envoyer le message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo">La Bastide des Jonquets<span>Gîte de Charme · Luberon</span></div>
+        <p>Maisonnette indépendante de 40m² avec piscine à débordement, au cœur du Parc Naturel Régional du Luberon.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Navigation</h5>
+        <a href="index.html">Accueil</a>
+        <a href="le-gite.html">Le Gîte</a>
+        <a href="la-piscine.html">La Piscine</a>
+        <a href="exterieurs-terrasses.html">Extérieurs & Terrasses</a>
+        <a href="tourisme-luberon.html">Tourisme</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h5>Contact</h5>
+        <a href="tel:+33603781781">+33 6 03 78 17 81</a>
+        <a href="mailto:labastidedesjonquets@gmail.com">labastidedesjonquets@gmail.com</a>
+        <a href="en/contact-us.html">English version</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 La Bastide des Jonquets. Tous droits réservés.</span>
+      <span>Gîte de charme · Luberon · Provence</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
